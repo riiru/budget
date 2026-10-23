@@ -1,0 +1,30 @@
+{
+  "name": "budget-cli",
+  "version": "1.0.0",
+  "description": "Консольное приложение для управления личными финансами",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "ts-node scripts/test.ts"
+  },
+  "keywords": [
+    "cli",
+    "finance",
+    "budget",
+    "typescript",
+    "inquirer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.6"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
